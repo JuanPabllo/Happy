@@ -1,6 +1,6 @@
 <div align="center">
 
-![](.Github/images/Logo.png)
+![](.Github/images/Logo.svg)
 
 </div>
 
