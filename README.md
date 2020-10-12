@@ -1,6 +1,6 @@
 <div align="center">
 
-![](web/src/images/map-marker.svg)
+![](.Github/images/Logo.png)
 
 </div>
 
