@@ -1,6 +1,6 @@
 <div align="center">
 
-![](web/src/images/Logo.svg)
+![](web/src/images/map-marker.svg)
 
 </div>
 
