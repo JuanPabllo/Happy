@@ -1,4 +1,12 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
+import {
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  OneToMany,
+  JoinColumn,
+} from "typeorm";
+
+import Image from "./Image";
 
 @Entity("orphanages")
 export default class Orphanage {
@@ -27,4 +35,11 @@ export default class Orphanage {
   open_on_weekends: boolean;
 
   // Column quer dizer que cada um deles são uma coluna
+
+  // Nao colocar o Column pq nao exite no banco
+  @OneToMany(() => Image, (image) => image.orphanage, {
+    cascade: ["insert", "update"],
+  })
+  @JoinColumn({ name: "orphanage_id" })
+  images: Image[];
 }
