@@ -40,4 +40,9 @@ $ cd web
 $ yarn start
 ```
 
+#### Screenshot Web
+
+![](.Github/images/Web1.png)
+![](.Github/images/Web2.png)
+
 ![](https://img.shields.io/github/license/JuanPabllo/Happy)
