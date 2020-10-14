@@ -39,15 +39,6 @@
 
 <br>
 
-### Getting Started 🚀
-
-#### Cloning
-
-```ps
-# Clone the repository using git
-$ git clone https://github.com/JuanPabllo/Happy.git
-```
-
 ## :package: Installation
 
 ### :heavy_check_mark: **Prerequisites**
@@ -61,6 +52,15 @@ The following software must be installed:
 - **[Expo App](https://play.google.com/store/apps/details?id=host.exp.exponent)**
 
 <br>
+
+### Getting Started 🚀
+
+#### Cloning
+
+```ps
+# Clone the repository using git
+$ git clone https://github.com/JuanPabllo/Happy.git
+```
 
 ##### Web
 
