@@ -62,45 +62,41 @@ The following software must be installed:
 $ git clone https://github.com/JuanPabllo/Happy.git
 ```
 
-##### Web
+### :arrow_forward: **Running the applications**
 
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+- :package: API
 
-```ps
-$ cd web
-$ yarn install
+```sh
+  $ cd backend
+  # Dependencies install.
+  $ yarn # or npm install
+  # Data base creation.
+  $ yarn typeorm migration:run # or npm run typeorm migration:run
+  # API start
+  $ yarn dev # or npm run dev
 ```
 
-##### Backend
+- :computer: Web app
 
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
-
-```ps
-$ cd Backend
-$ yarn install
+```sh
+  $ cd web
+  # Dependencies install.
+  $ yarn # or npm install
+  # Running web app
+  $ yarn start # or npm start
 ```
 
-#### Running
+- :iphone: Mobile app
 
-To start the Web Server run the command
-
-```ps
-# Entering in web directory
-$ cd web
-
-# Run the web server
-$ yarn start
+```sh
+  $ cd mobile
+  # Dependencies install.
+  $ yarn # or npm install
+  # Running mobile app
+  $ yarn start # or npm start
 ```
 
-To start the Back Server run the command
-
-```ps
-# Entering in Server directory
-$ cd backend
-
-# Run the Back Server
-$ yarn dev
-```
+<br>
 
 Acesse: [`http://127.0.0.1:3333/`](http://127.0.0.1:3333/) para visualizar.
 
