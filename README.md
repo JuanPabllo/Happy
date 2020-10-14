@@ -5,7 +5,6 @@
 <p align="center">
   <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-tools">Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#package-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -103,6 +102,8 @@ $ cd backend
 $ yarn dev
 ```
 
+Acesse: [`http://127.0.0.1:3333/`](http://127.0.0.1:3333/) para visualizar.
+
 #### Screenshot Web
 
 ![](.Github/images/Web1.png)
@@ -111,3 +112,5 @@ $ yarn dev
 ## :memo: License
 
 ![](https://img.shields.io/github/license/JuanPabllo/Happy)
+
+Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
