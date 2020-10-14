@@ -28,7 +28,16 @@ $ cd web
 $ yarn install
 ```
 
-#### Running Web
+##### Backend
+
+This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+
+```ps
+$ cd Backend
+$ yarn install
+```
+
+#### Running
 
 To start the Web Server run the command
 
@@ -40,13 +49,13 @@ $ cd web
 $ yarn start
 ```
 
-##### Running Backend
-
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+To start the Back Server run the command
 
 ```ps
-$ cd Backend
-$ yarn install
+# Entering in Server directory
+$ cd backend
+
+# Run the Back Server
 $ yarn dev
 ```
 
